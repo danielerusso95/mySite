@@ -14,12 +14,11 @@ Language ITA.
 
 
 ## Technologies
-***
 * HTML
 * [Bootstrap](https://getbootstrap.com/)
 
 **Where Can I try the project?**
-Click [Here](hhttps://rdev-fe6aa.web.app/)
+Click [Here](https://rdev-fe6aa.web.app/)
 
 Thanks!
 D.Russo
