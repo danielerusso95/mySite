@@ -16,6 +16,7 @@ Language ITA.
 ## Technologies
 * HTML
 * [Bootstrap](https://getbootstrap.com/)
+* Javascript
 
 **Where Can I try the project?**
 Click [Here](https://rdev-fe6aa.web.app/)

@@ -1,138 +1,133 @@
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
+
 .animate__animated.animate__bounceInDown {
-    --animate-duration: 3000ms;
-    --animate-delay: 1s;
+  --animate-duration: 3000ms;
+  --animate-delay: 1s;
 }
 
-html{
-    height: 100%;  
+html {
+  height: 100%;
 }
 
-body{
-    margin: 0 auto;
+body {
+  margin: 0 auto;
 }
 
-#home{
-    background-image: url("img/background.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding:0;
+#home {
+  background-image: url("img/background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
 }
 
-.float-end a{
-    color:  rgb(1, 245, 1);
-    text-decoration: none;
+.float-end a {
+  color: rgb(1, 245, 1);
+  text-decoration: none;
 }
 
-.first{
-    margin: 0 auto;
-    padding: 20% 5% 15% 5%;
-    
+.first {
+  margin: 0 auto;
+  padding: 20% 5% 15% 5%;
 }
 
-#aboutMe{
-    height: 100%;
-    border:1px  rgb(1, 245, 1);
-    padding: 5%;
-    text-align: center;
+#aboutMe {
+  height: 100%;
+  border: 1px rgb(1, 245, 1);
+  padding: 5%;
+  text-align: center;
 }
 
-
-.container-fluid{
-    min-height: 100%;
+.container-fluid {
+  min-height: 100%;
 }
 
-#project{
-    margin: 0 auto!important;
-    max-width: 100%;
-    text-align: center;
+#project {
+  margin: 0 auto !important;
+  max-width: 100%;
+  text-align: center;
 }
 
-.card{
-   width: 100%;
-   min-height: 495px;
-   
+.card {
+  width: 100%;
+  min-height: 495px;
 }
 
-#contact{
-    padding:0;
-    min-height: 40%!important;
-    text-align: center;
+#contact {
+  padding: 0;
+  min-height: 40% !important;
+  text-align: center;
 }
 
-.contact{
-    padding: 0;
-
+.contact {
+  padding: 0;
 }
 
-.contact a{
-    color: rgb(1, 245, 1);
-    text-decoration: none;
+.contact a {
+  color: rgb(1, 245, 1);
+  text-decoration: none;
 }
 
-#wrapper{
-    padding: 0;
+#wrapper {
+  padding: 0;
 }
 
-.row{
-    padding-bottom: 3%;
-    
+.row {
+  padding-bottom: 3%;
 }
 
-.passion{
-    text-align: center;
-    padding: 1%;
-    border: rgb(1, 245, 1) 1px solid;
-    border-right: hidden; 
+.passion {
+  text-align: center;
+  padding: 1%;
+  border: rgb(1, 245, 1) 1px solid;
+  border-right: hidden;
 }
-.passion:last-child{
-    border-right: rgb(1, 245, 1) 1px solid;
-}
-
-.exp{
-    height: 100%;
-    min-height: 150px;
+.passion:last-child {
+  border-right: rgb(1, 245, 1) 1px solid;
 }
 
-.cardW-title{
-    padding-top: 3%;
-   font-size: 120%;
+.exp {
+  height: 100%;
+  min-height: 150px;
 }
 
-.contTitle{
-    padding-top: 5%;
-    font-size: 100%;
+.cardW-title {
+  padding-top: 3%;
+  font-size: 120%;
 }
 
-.collapse-cont{
-    padding: 0;
+.contTitle {
+  padding-top: 5%;
+  font-size: 100%;
 }
 
-.expCard{
-    min-height: 110px;
+.collapse-cont {
+  padding: 0;
 }
 
-.project{
-    margin: 2%;
-    min-width: 40%;
+.expCard {
+  min-height: 110px;
 }
 
-.projects{
-    width: 90%;
-    margin: 0 auto;
+.project {
+  margin: 2%;
+  min-width: 40%;
 }
 
-.skills{
-    padding-bottom: 10%;
-    border-bottom:rgb(156, 156, 156) 1px solid;
-    max-width: 90%;
-    margin: 0 auto;
+.projects {
+  width: 90%;
+  margin: 0 auto;
 }
 
-@media (max-width: 576px){
-    .project{
-        min-width: 100%;
-    }
+.skills {
+  padding-bottom: 10%;
+  border-bottom: rgb(156, 156, 156) 1px solid;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
-
+@media (max-width: 576px) {
+  .project {
+    min-width: 100%;
+  }
+}
