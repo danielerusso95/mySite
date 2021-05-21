@@ -1,169 +1,343 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>devR</title>
   </head>
   <body>
-    <div class="container-fluid"  id="wrapper">
-        <div id="home" class="container-fluid">
-            <nav class="navbar navbar-dark bg-dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">devR</a>
-                        <div class="float-end btn-group" role="group">
-                        <button class="btn btn-secondary"><a href="#aboutMe">AboutMe</a></button>
-                        <button class="btn btn-secondary"><a href="#project">Project</a></button>
-                        <button class="btn btn-secondary"><a href="#contact">Contact</a></button>
-                    </div>
-                </div>
-            </nav>
-            <div class="container first">
-                <div class="row">
-                    <div class="col-lg">
-                        <h1 class="animate__animated animate__bounceInDown">Hi Guys, I'm Daniele Russo, a full stack web developer student...</h1>
-                    </div>
-                </div>   
+    <div class="container-fluid" id="wrapper">
+      <div id="home" class="container-fluid">
+        <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">devR</a>
+            <div class="float-end btn-group" role="group">
+              <button class="btn btn-secondary">
+                <a href="#aboutMe">AboutMe</a>
+              </button>
+              <button class="btn btn-secondary">
+                <a href="#project">Project</a>
+              </button>
+              <button class="btn btn-secondary">
+                <a href="#contact">Contact</a>
+              </button>
             </div>
-            <div class="container second">
-                <div class="row">
-                    <div class="col-lg">
-                        <h1>Show more about me  <a href="#aboutMe"><img class="animate__animated animate__bounce animate__infinite infinite animate__slower" src="img/frecciaGiu.png" style="width: 4%;" alt=""></a></h1>
-                    </div>
-                </div>
+          </div>
+        </nav>
+        <div class="container first">
+          <div class="row">
+            <div class="col-lg">
+              <h1 class="animate__animated animate__bounceInDown">
+                Hi Guys, I'm Daniele Russo, a full stack web developer
+                student...
+              </h1>
             </div>
+          </div>
         </div>
-        <div id="aboutMe" class="container-fluid">
-            <div class="row">
-                <h1 style="padding-bottom:5%; text-align: center;">MySelf!</h1>
+        <div class="container second">
+          <div class="row">
+            <div class="col-lg">
+              <h1>
+                Show more about me
+                <a href="#aboutMe"
+                  ><img
+                    class="
+                      animate__animated animate__bounce animate__infinite
+                      infinite
+                      animate__slower
+                    "
+                    src="img/frecciaGiu.png"
+                    style="width: 4%"
+                    alt=""
+                /></a>
+              </h1>
             </div>
-            <div class="row row-cols-3">
-                <div class="col passion">
-                    <div>
-                        <img class="img-fluid" src="img/bartender.jpg">
-                        <div class="exp">
-                            <h3 class="cardW-title">Bartender Pro</h3>
-                        </div>
-                        <a href="#CollapseWork"><button id="CollapseWork" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWork" aria-expanded="false" aria-controls="collapseExample">
-                            Show more
-                        </button></a>
-                    </div>
-                </div>
-                <div class="col passion">
-                    <div>
-                        <img class="img-fluid" src="img/dev.jpg">
-                        <div class="exp">
-                            <h3 class="cardW-title">Full stack web developer student</h3> 
-                        </div>
-                        <a href="#CollapseDev"><button id="CollapseDev" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDev" aria-expanded="false" aria-controls="collapseExample">
-                            Show more
-                        </button></a>
-                    </div>
-                </div>
-                <div class="col passion">
-                    <div>
-                        <img class="img-fluid" src="img/travel.jpg">
-                        <div class="exp">
-                            <h3 class="cardW-title">Travel lover</h3>
-                        </div>
-                        <a href="#CollapseTravel"><button id="CollapseTravel" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTravel" aria-expanded="false" aria-controls="collapseExample">
-                            Show more
-                        </button></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-cols-3">
-                <div class="col collapse-cont">
-                    <div class="collapse" id="collapseWork">
-                        <div class="card card-body expCard">
-                            <p>7 years in the catering sector, where I held various roles before becoming a cocktail pro.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col collapse-cont">
-                    <div class="collapse" id="collapseDev">
-                        <div class="card card-body expCard">
-                            <p>Graduated in computer science, with a strong passion for this world, I am now back as a student to make it my job. Follow my progress in my <a style="text-decoration: none;" target="blank" href="https://talent.start2impact.it/profile/daniele-russo">Start2impact Profile.</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col collapse-cont">
-                    <div class="collapse" id="collapseTravel">
-                        <div class="card card-body expCard">
-                            I love to travel and experience the places I visit, trying to understand local cultures.
-                            My dream is to return to live in Australia where I lived for 6 months at the age of 19
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col skills">
-                    <h2 style="margin-bottom: 5%;">Web Developer Skills</h2>
-                    <img class="img-fluid" src="img/skills.png" alt="">
-                </div>
-            </div>
+          </div>
         </div>
-        <div id="project" class="container-fluid">
-            <div class="row"><h1 style="padding-bottom:3%; text-align: center;">My projects!</h1></div>
-            <div class="row projects">
-                <div class="col project shadow-lg p-3 mb-5 bg-body rounded">
-                    <div class="container">
-                        <h4 style="padding-bottom: 1%;">Air Pollution in your city</h4>
-                    </div>
-                    <figure class="figure">
-                        <img src="img/AirPollution.png" class="figure-img img-fluid rounded">
-                            <figcaption class="figure-caption"><a style="color:black; text-decoration: none;" target="blank" href="https://github.com/danielerusso95/Get-Air-Pollution">link to gitHub</a></figcaption>
-                    </figure>
-                    <div class="container">
-                        <a target="blank" href="https://air-pollution-464b3.web.app/"><button class="btn btn-primary">Check</button></a>
-                    </div>                        
-                </div>
-                <div class="col project shadow-lg p-3 mb-5 bg-body rounded">
-                    <div class="container">
-                        <h4 style="padding-bottom: 1%;">Rock Paper Scissors</h4>
-                    </div>
-                    <figure class="figure">
-                        <img src="img/morraCinese.png" class="figure-img img-fluid rounded">
-                            <figcaption class="figure-caption"><a style="color:black; text-decoration: none;" target="blank" href="https://github.com/danielerusso95/Rock-Paper-Scissors">link to gitHub</a></figcaption>
-                    </figure>
-                    <div class="container">
-                        <a target="blank" href="https://sassocartaforbici-b4f9e.web.app/"><button class="btn btn-primary">Play</button></a>
-                    </div>
-                </div> 
-            </div>
+      </div>
+      <div id="aboutMe" class="container-fluid">
+        <div class="row">
+          <h1 style="padding-bottom: 5%; text-align: center">MySelf!</h1>
         </div>
-        <div id="contact" class="container-fluid bg-secondary">
+        <div class="row row-cols-3">
+          <div class="col passion">
+            <div>
+              <img class="img-fluid" src="img/bartender.jpg" />
+              <div class="exp">
+                <h3 class="cardW-title">Bartender Pro</h3>
+              </div>
+              <a href="#CollapseWork"
+                ><button
+                  id="CollapseWork"
+                  class="btn btn-primary"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseWork"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  Show more
+                </button></a
+              >
+            </div>
+          </div>
+          <div class="col passion">
+            <div>
+              <img class="img-fluid" src="img/dev.jpg" />
+              <div class="exp">
+                <h3 class="cardW-title">Full stack web developer student</h3>
+              </div>
+              <a href="#CollapseDev"
+                ><button
+                  id="CollapseDev"
+                  class="btn btn-primary"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseDev"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  Show more
+                </button></a
+              >
+            </div>
+          </div>
+          <div class="col passion">
+            <div>
+              <img class="img-fluid" src="img/travel.jpg" />
+              <div class="exp">
+                <h3 class="cardW-title">Travel lover</h3>
+              </div>
+              <a href="#CollapseTravel"
+                ><button
+                  id="CollapseTravel"
+                  class="btn btn-primary"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTravel"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  Show more
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-3">
+          <div class="col collapse-cont">
+            <div class="collapse" id="collapseWork">
+              <div class="card card-body expCard">
+                <p>
+                  7 years in the catering sector, where I held various roles
+                  before becoming a cocktail pro.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col collapse-cont">
+            <div class="collapse" id="collapseDev">
+              <div class="card card-body expCard">
+                <p>
+                  Graduated in computer science, with a strong passion for this
+                  world, I am now back as a student to make it my job. Follow my
+                  progress in my
+                  <a
+                    style="text-decoration: none"
+                    target="blank"
+                    href="https://talent.start2impact.it/profile/daniele-russo"
+                    >Start2impact Profile.</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col collapse-cont">
+            <div class="collapse" id="collapseTravel">
+              <div class="card card-body expCard">
+                I love to travel and experience the places I visit, trying to
+                understand local cultures. My dream is to return to live in
+                Australia where I lived for 6 months at the age of 19
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col skills">
+            <h2 style="margin-bottom: 5%">Web Developer Skills</h2>
+            <img class="img-fluid" src="img/skills.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div id="project" class="container-fluid">
+        <div class="row">
+          <h1 style="padding-bottom: 3%; text-align: center">My projects!</h1>
+        </div>
+        <div class="row projects">
+          <div class="col project shadow-lg p-3 mb-5 bg-body rounded">
             <div class="container">
-                <div class="container-fluid"><svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
-                    <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
-                </svg></div>
-                <div class="row">
-                    <div class="col">
-                        <h1 style="padding-top:5%;">Contact!</h1>
-                    </div>
-                </div>
-                <div id="contWrapper" class="row row-cols-3">
-                    <div class="col contact">
-                        <h4 class="contTitle"><a target="blank" href="https://www.linkedin.com/in/daniele-russo-2a0ba81b8/">Linkedin</a></h4>
-                    </div>
-                    <div class="col contact">
-                        <h4 class="contTitle"><a target="blank" href="https://talent.start2impact.it/profile/daniele-russo">Start2Impact</a></h4>
-                    </div>
-                    <div class="col contact">
-                        <h4 class="contTitle"><a href="mailto:russo.daniele0@gmail.com">Mail</a></h4>
-                    </div>
-                </div>
+              <h4 style="padding-bottom: 1%">Air Pollution in your city</h4>
             </div>
-            <div class="navbar navbar-dark bg-dark">
-                <a style="font-size: 70%;" href="https://it.vecteezy.com/vettori-gratis/sfondo">Sfondo Vettori di Vecteezy</a>
+            <figure class="figure">
+              <img
+                src="img/AirPollution.png"
+                class="figure-img img-fluid rounded"
+              />
+              <figcaption class="figure-caption">
+                <a
+                  style="color: black; text-decoration: none"
+                  target="blank"
+                  href="https://github.com/danielerusso95/Get-Air-Pollution"
+                  >link to gitHub</a
+                >
+              </figcaption>
+            </figure>
+            <div class="container">
+              <a target="blank" href="https://air-pollution-464b3.web.app/"
+                ><button class="btn btn-primary">Check</button></a
+              >
             </div>
+          </div>
+          <div class="col project shadow-lg p-3 mb-5 bg-body rounded">
+            <div class="container">
+              <h4 style="padding-bottom: 1%">Rock Paper Scissors</h4>
+            </div>
+            <figure class="figure">
+              <img
+                src="img/morraCinese.png"
+                class="figure-img img-fluid rounded"
+              />
+              <figcaption class="figure-caption">
+                <a
+                  style="color: black; text-decoration: none"
+                  target="blank"
+                  href="https://github.com/danielerusso95/Rock-Paper-Scissors"
+                  >link to gitHub</a
+                >
+              </figcaption>
+            </figure>
+            <div class="container">
+              <a target="blank" href="https://sassocartaforbici-b4f9e.web.app/"
+                ><button class="btn btn-primary">Play</button></a
+              >
+            </div>
+          </div>
+          <div class="col project shadow-lg p-3 mb-5 bg-body rounded">
+            <div class="container">
+              <h4 style="padding-bottom: 1%">Covid-19</h4>
+            </div>
+            <figure class="figure">
+              <img src="img/covid.png" class="figure-img img-fluid rounded" />
+              <figcaption class="figure-caption">
+                <a
+                  style="color: black; text-decoration: none"
+                  target="blank"
+                  href="https://github.com/danielerusso95/Covid19PLatform.git"
+                  >link to gitHub</a
+                >
+              </figcaption>
+            </figure>
+            <div class="container">
+              <a target="blank" href="https://covidplatform-d48ff.web.app/"
+                ><button class="btn btn-primary">Play</button></a
+              >
+            </div>
+          </div>
+          <div class="col project shadow-lg p-3 mb-5 bg-body rounded">
+            <div class="container">
+              <h4 style="padding-bottom: 1%">Rock Paper Scissors</h4>
+            </div>
+            <figure class="figure">
+              <img src="img/presto.png" class="figure-img img-fluid rounded" />
+              <figcaption class="figure-caption">
+                <a
+                  style="color: black; text-decoration: none"
+                  target="blank"
+                  href="https://github.com/danielerusso95/Rock-Paper-Scissors"
+                  >link to gitHub</a
+                >
+              </figcaption>
+            </figure>
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <h4 class="text-center">
+                    To view the code or live view contact me to
+                    russo.daniele0@gmail.com
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div id="contact" class="container-fluid bg-secondary">
+        <div class="container">
+          <div class="container-fluid">
+            <svg
+              preserveAspectRatio="none"
+              viewBox="0 0 100 102"
+              height="75"
+              width="100%"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              class="svgcolor-light"
+            >
+              <path
+                d="M0 0 L50 100 L100 0 Z"
+                fill="white"
+                stroke="white"
+              ></path>
+            </svg>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h1 style="padding-top: 5%">Contact!</h1>
+            </div>
+          </div>
+          <div id="contWrapper" class="row row-cols-3">
+            <div class="col-6 contact">
+              <h4 class="contTitle">
+                <a
+                  target="blank"
+                  href="https://www.linkedin.com/in/daniele-russo-2a0ba81b8/"
+                  >Linkedin</a
+                >
+              </h4>
+            </div>
+            <div class="col-6 contact">
+              <h4 class="contTitle">
+                <a href="mailto:russo.daniele0@gmail.com">Mail</a>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark">
+          <a
+            style="font-size: 70%"
+            href="https://it.vecteezy.com/vettori-gratis/sfondo"
+            >Sfondo Vettori di Vecteezy</a
+          >
+        </div>
+      </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
     <script src="/__/firebase/8.2.7/firebase-app.js"></script>
     <script src="/__/firebase/init.js"></script>
   </body>
